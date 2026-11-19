@@ -1,5 +1,5 @@
 import React from "react";
-import { TEAM_CHRONOS } from "./docsData";
+import { TEAM_POCO } from "./docsData";
 
 export function TeamSection() {
   return (
@@ -8,20 +8,20 @@ export function TeamSection() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800/80 pb-6">
         <div>
           <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-sky-500/10 border border-sky-400/20 text-sky-400 text-xs font-mono uppercase tracking-wider mb-2">
-            <span className="material-symbols-outlined text-[15px]">group</span>
-            Founding &amp; Engineering Team
+            <span className="material-symbols-outlined text-[15px]">psychology</span>
+            AI Congress Delegation • Founding Team
           </div>
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-white tracking-tight">
-            {TEAM_CHRONOS.teamName}
+            {TEAM_POCO.teamName}
           </h2>
           <p className="text-slate-400 text-sm mt-1 max-w-2xl">
-            {TEAM_CHRONOS.leadQuote}
+            {TEAM_POCO.leadQuote}
           </p>
         </div>
 
         <div className="flex items-center gap-2 self-start md:self-auto">
-          <span className="px-3 py-1.5 rounded-lg bg-slate-950/80 border border-slate-800 text-xs font-mono text-slate-300">
-            4 Core Contributors
+          <span className="px-3 py-1.5 rounded-lg bg-sky-950/60 border border-sky-500/30 text-xs font-mono text-sky-300">
+            AI Congress Presentation
           </span>
           <span className="px-3 py-1.5 rounded-lg bg-emerald-950/50 border border-emerald-500/30 text-xs font-mono text-emerald-400">
             Cross-Disciplinary R&amp;D
@@ -31,7 +31,7 @@ export function TeamSection() {
 
       {/* Team Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {TEAM_CHRONOS.members.map((member) => {
+        {TEAM_POCO.members.map((member) => {
           // Compute clean initials
           const initials = member.name
             .split(" ")

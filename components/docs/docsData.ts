@@ -6,13 +6,13 @@ export interface TeamMember {
   skills: string[];
 }
 
-export const TEAM_CHRONOS: {
+export const TEAM_POCO: {
   teamName: string;
   leadQuote: string;
   members: TeamMember[];
 } = {
-  teamName: "Team Chronos",
-  leadQuote: "Engineering continuous cryosphere observation and deep GLOF early warning intelligence for climate-resilient mountain communities.",
+  teamName: "Team Poco",
+  leadQuote: "Engineering continuous cryosphere observation and deep GLOF early warning intelligence for climate-resilient mountain communities — Presented for AI Congress.",
   members: [
     {
       name: "Adittya Dey",

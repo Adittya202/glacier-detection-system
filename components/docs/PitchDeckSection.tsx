@@ -9,7 +9,7 @@ export function PitchDeckSection() {
         <div className="relative z-10 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-400/30 text-sky-400 text-xs font-mono tracking-wider uppercase">
             <span className="w-2 h-2 rounded-full bg-sky-400 animate-pulse" />
-            YC Pitch Deck — GMEWS by Team Chronos
+            YC Pitch Deck — GMEWS by Team Poco (AI Congress)
           </div>
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-white tracking-tight">
             Glacier Monitoring &amp; Early Warning System <span className="text-sky-400">(GMEWS)</span>

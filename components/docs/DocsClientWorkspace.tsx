@@ -96,7 +96,7 @@ export function DocsClientWorkspace() {
                   Public Available
                 </span>
               </div>
-              <p className="text-[11px] text-slate-400">Team Chronos • Cryosphere Earth Observation Platform</p>
+              <p className="text-[11px] text-slate-400">Team Poco • AI Congress Presentation • Cryosphere Earth Observation</p>
             </div>
           </div>
 
@@ -157,7 +157,7 @@ export function DocsClientWorkspace() {
                 : "text-slate-400 hover:text-slate-200"
             }`}
           >
-            2. Team Chronos
+            2. Team Poco (AI Congress)
           </button>
           <button
             onClick={() => setActiveTab("tech")}
@@ -193,7 +193,7 @@ export function DocsClientWorkspace() {
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 py-8 px-6 text-center text-xs text-slate-500 space-y-2">
         <div className="font-mono text-slate-400">
-          Glacier Monitoring &amp; Early Warning System (GMEWS) • Team Chronos
+          Glacier Monitoring &amp; Early Warning System (GMEWS) • Team Poco • AI Congress 2026
         </div>
         <p className="max-w-xl mx-auto text-[11px] text-slate-500">
           Engineered for continuous cryosphere observation, high-altitude hazard detection, and rapid community early warning.

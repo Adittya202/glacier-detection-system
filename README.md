@@ -1,7 +1,8 @@
 # Glacier Monitoring & Early Warning System (GMEWS)
-### Developed by Team Chronos
+### Developed by Team Poco • Presented for AI Congress
 
 [![Live Deployment on Vercel](https://img.shields.io/badge/Live_Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://glacier-detection-system-lac.vercel.app/)
+[![AI Congress Presentation](https://img.shields.io/badge/Presentation-AI_Congress-4F46E5?style=for-the-badge&logo=google-cloud&logoColor=white)](https://glacier-detection-system-lac.vercel.app/docs)
 [![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript 5](https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -27,7 +28,7 @@ Focusing on the **Siachen Basin, Saltoro Ridge, and Nubra River Valley** (35.42�
 
 ---
 
-## 👥 Team Chronos
+## 👥 Team Poco (AI Congress Delegation)
 *Engineering continuous cryosphere observation and deep GLOF early warning intelligence for climate-resilient mountain communities.*
 
 | Member | Role | Focus Area |
@@ -107,5 +108,5 @@ npm start
 
 ---
 
-## 📜 License
-Developed for Earth Observation and Cryosphere Hazard Research by **Team Chronos**.
+## 📜 License & Presentation
+Developed for Earth Observation and Cryosphere Hazard Research by **Team Poco** — Presented for **AI Congress**.
