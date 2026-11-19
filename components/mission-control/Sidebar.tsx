@@ -33,6 +33,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: "pipeline-jobs", label: "Pipeline Jobs", icon: "sync_alt", href: "/#pipeline" },
   { id: "data-sources", label: "Data Sources", icon: "dataset", href: "/#data-sources" },
   { id: "briefings", label: "Briefings", icon: "summarize", href: "/#briefings" },
+  { id: "docs", label: "Documentation & Pitch", icon: "menu_book", href: "/docs", badge: "Live", badgeClass: "bg-sky-500/20 text-sky-300 font-semibold" },
 ];
 
 export default function Sidebar() {
@@ -170,12 +171,12 @@ export default function Sidebar() {
                 </span>
                 <span>Settings &amp; Config</span>
               </button>
-              <button className="flex items-center gap-space-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface font-label-sm text-[10px] transition-colors text-left">
+              <Link href="/docs" className="flex items-center gap-space-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface font-label-sm text-[10px] transition-colors text-left">
                 <span className="material-symbols-outlined text-[14px]">
                   description
                 </span>
-                <span>Quick Documentation / Schema</span>
-              </button>
+                <span>System Documentation &amp; Pitch</span>
+              </Link>
             </div>
           </div>
         ) : (
